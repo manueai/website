@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Publications by Year</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="publications">
+    <h1>Publications</h1>
+
+    <details open>
+      <summary>📘 2024</summary>
+      <ul>
+        <li>
+          <strong>Digitalization and inclusiveness of HRM practices: The example of neurodiversity initiatives</strong><br>
+          <em>Walkowiak, Emmanuelle</em><br>
+          <small><i>Human Resource Management Journal</i>, Vol. 34(3), pp. 578–598</small>
+        </li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>📘 2023</summary>
+      <ul>
+        <li>
+          <strong>Task-interdependencies between Generative AI and Workers</strong><br>
+          <em>Walkowiak, Emmanuelle</em><br>
+          <small><i>Economics Letters</i>, Vol. 231, Article 111315</small>
+        </li>
+        <li>
+          <strong>Generative AI and the Workforce: What Are the Risks?</strong><br>
+          <em>Walkowiak, Emmanuelle; MacDonald, Trent</em><br>
+          <small><i>SSRN</i></small>
+        </li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>📘 2022</summary>
+      <ul>
+        <li>
+          <strong>Sample 2022 Paper Title</strong><br>
+          <em>Author A, Author B</em><br>
+          <small><i>Journal of Example Research</i>, Vol. 1(1), pp. 1–10</small>
+        </li>
+      </ul>
+    </details>
+  </div>
+</body>
+</html>
