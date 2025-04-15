@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Google Scholar-Style Publications</title>
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 400;
+      color: #202124;
+      margin-bottom: 40px;
+    }
+
+    details {
+      border: 1px solid #dadce0;
+      border-radius: 8px;
+      padding: 12px 16px;
+      background: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 1.1em;
+      position: relative;
+      padding-left: 1.2em;
+    }
+
+    summary::before {
+      content: "▸";
+      font-size: 0.9em;
+      position: absolute;
+      left: 0;
+      transition: transform 0.2s;
+    }
+
+    details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    ul {
+      margin-top: 10px;
+      padding-left: 1em;
+      list-style-type: none;
+    }
+
+    li {
+      margin-bottom: 15px;
+    }
+
+    li strong {
+      display: block;
+    }
+
+    li em {
+      color: #555;
+    }
+
+    li small {
+      display: block;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Publications</h1>
+
+  <details open>
+    <summary>2024</summary>
+    <ul>
+      <li>
+        <strong>Digitalization and inclusiveness of HRM practices</strong>
+        <em>Walkowiak, Emmanuelle</em>
+        <small>Human Resource Management Journal, Vol. 34(3), pp. 578–598</small>
+      </li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>2023</summary>
+    <ul>
+      <li>
+        <strong>Task-interdependencies between Generative AI and Workers</strong>
+        <em>Walkowiak, Emmanuelle</em>
+        <small>Economics Letters, Vol. 231, Article 111315</small>
+      </li>
+      <li>
+        <strong>Generative AI and the Workforce: What Are the Risks?</strong>
+        <em>Walkowiak, Emmanuelle; MacDonald, Trent</em>
+        <small>SSRN, 2023</small>
+      </li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>2022</summary>
+    <ul>
+      <li>
+        <strong>Sample 2022 Paper Title</strong>
+        <em>Author A, Author B</em>
+        <small>Journal of Example Research, Vol. 1(1), pp. 1–10</small>
+      </li>
+    </ul>
+  </details>
+</body>
+</html>
